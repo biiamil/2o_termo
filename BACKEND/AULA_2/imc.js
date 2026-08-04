@@ -2,8 +2,8 @@
 const entrada = require("readline-sync")
 
 console.log("-------------------------");
-console.log("     CALCULADORA DE IMC      ")
-consoloe.log("------------------------\n");
+console.log("     CALCULADORA DE IMC      ");
+console.log("------------------------\n");
 
 //2.Coleta de dados (Entrada)
 const nome = entrada.question("Qual o seu nome? ");
@@ -15,7 +15,7 @@ const altura = entrada.questionFloat("Digite sua altura (ex: 1.75 ");
 ;const imc = peso / (altura * altura)
 
 //4.Exibicao do resultado (Saida)
-consoloe.log("\n--------------------------");
+console.log("\n--------------------------");
 console.log(`Ola, ${nome}!`)
 console.log(`Seu peso: ${peso} kg`);
 console.log(`Sua altura: ${altura} m`);
