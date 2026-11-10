@@ -1,0 +1,162 @@
+/*Configurações Gerais*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+    header p {
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+
+header h1 {
+    font-size: 18px;
+}
+
+/*Navegação*/
+nav { 
+    
+    margin-top: 25px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    section {
+       background-color: #ffffff;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+      section h2 {
+        color: #1e3a5f;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      section h3 {
+        color: #1e3a5f;
+      }
+
+      section p {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      /* Imagem de principal */
+      .imagem-pricipal {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        width: 500px;
+      }
+
+      .web {
+        background-color: #eaf2f8;
+        border: 1px solid #cccccc;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .sistemas {
+        background-color: #eaf2f8;
+        border: 1px solid #cccccc;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .Banco-de-Dados {
+        background-color: #eaf2f8;
+        border: 1px solid #cccccc;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .Consutoria {
+        background-color: #eaf2f8;
+        border: 1px solid #cccccc;
+        padding: 20px;
+        margin: 20px;
+      }
+ 
+/*Todod poderiam ser reduzidas a apenas 1 classe*/
+.cartoes_servicos {
+    background-color: #eaf2f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.funcionarios {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.funcionarios img {
+    width: 150px;
+    height: 150px;
+}
+
+.vendas {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.aplicativo {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+.institucional {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+footer p {
+    font-size: 14px;
+
+}

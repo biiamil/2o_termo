@@ -1,0 +1,199 @@
+:root {
+    /* Paleta de Cores */
+    --espresso: #2b170d;
+    --cafe: #5A321B;
+    --caramelo: #C66A1A;
+    --creme: #f3e6d7;
+    --marfim: #fff9f3;
+    --taupe: #9a887a;
+    --texto: #1e140F;
+    --branco: #ffff;
+
+    /* Fontes ou tipografia */
+    --fonte-principal: Arial, sans-serif;
+    --fonte-secundaria: "Poppins", Helvetica;
+
+    /* Espaçamento */
+
+    /* Obs: root é responsavel por disponibilizar um espaço para cadastro de variaveis do elemento raiz do documento. Variais CSS globais. */
+}
+
+body {
+    background-color: var(--caramelo);
+    font-family: var(--fonte-principal);
+
+
+/* Ajudtes inicias */
+/* configuração padrão com regras gerais */
+box-sizing: border-box;
+        /* Aplicar configuração geral em todo o documento */
+}
+
+html {
+        scroll-behavior: smooth;
+        /* Ajuste de scroll mais lento ou ajustavel ao html */
+}
+
+body {
+    margin: 0;
+    background-color:var(--marfim);
+    font-family: var(--fonte-principal);
+    color: var(--texto);
+    line-height: 1.6;
+}
+ 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ------------------------------------------------------------------- */
+/* Hierarquia de fontes */
+h1,h2,h3,h4 {
+    margin-top: 0;
+    color: var(--espresso);
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25;
+}
+h4 {
+    font-size: 2.00;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: var(--espresso);
+}
+
+.visual {
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: var(--caramelo);
+    /* aplica o efeito de cor na letras da parte inicial */
+}
+
+.menu a:focus-visible {
+    outline: 3px solid var(--caramelo);
+    outline-offset: 4px;
+    /* Estilos de formato de bordas */
+    /* dotted, dashed, solid, double, groove, ridge, inset */
+}
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 8%;
+    background-color: var(--creme);
+}
+
+.banner-imagem {
+    flex:1;
+    margin: 0;
+}
+
+.banner-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+.banner-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.marca-reg {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 24px;
+    background-color: var(--caramelo);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.cafe-reg:hover {
+    background-color: var(--cafe);
+    transition: background-color 0.8s ease;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 8%;
+    background-color: var(--marfim);
+}
+
+.sobre-imagem {
+    flex: 1;
+    margin: 0;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.lista-marca {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-cartao {
+    height: 90%;
+    padding: 15px;
+    background-color: var(--branco);
+    border: 1px solid var(--creme);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(43, 23, 13, 0.08);
+}
+
+.img-cartao img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-cartao:hover {
+    transform: translatey(-4px);
+    box-shadow: 0 12px 30px rgba(43, 23, 13, 0.12); 
+}
