@@ -163,19 +163,19 @@ body {
 }
 /* --barra de navegação superior  (header)-- */
 
- .topo {
-            background-color: var(--fundo-escuro);
-            color: #FAF6F0;
-            padding: 18px 0;
-        }
+.topo {
+    background-color: var(--fundo-escuro);
+    color: #FAF6F0;
+    padding: 18px 0;
+}
 
-        .topo-conteudo {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            gap: 28px;
-        }
+ .topo-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     justify-content: center;
+    gap: 28px;
+    }
 
         .marca {
             font-family: 'Fraunces', serif;
@@ -198,7 +198,7 @@ body {
         }
 
         .menu a {
-            color: #DCE6DF;
+            color: #f5c996;
             text-decoration: none;
             padding: 4px 6px;
             transition: color 0.2s ease;
@@ -216,6 +216,7 @@ body {
 /* --banner prinipal-- */
 .secao-hero {
             padding: 20px 0 12px;
+            
         }
 
         .hero-box {
@@ -403,3 +404,5 @@ body {
                 gap: 12px;
             }
         }
+
+        
