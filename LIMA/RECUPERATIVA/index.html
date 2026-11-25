@@ -4,50 +4,217 @@
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Festival de Cultura Indigena</title>
+    <title>Festival Ybyrá</title>
     </head>
+    
+    <!-- --parte 1-- -->
     <body>
         <center>
-    <header class="#inicio"><h1><span>Festival de Cultura Indígena</span></a></h1>
+       <header id="inicio" class="topo">
+        <div class="container topo-conteudo">
+            <a href="#inicio" class="marca">FESTIVAL YBYRÁ</a>
 
-        <nav>
-         <ul class="navegacao">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#atracoes">Atrações</a></li>
-                <li><a href="#programacao">Programação</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
-        </nav>
+            <nav class="menu" aria-label="Menu principal">
+                <a href="#inicio">INÍCIO</a>
+                <span class="separador">|</span>
+                <a href="#atracoes">ATRAÇÕES</a>
+                <span class="separador">|</span>
+                <a href="#programacao">PROGRAMAÇÃO</a>
+                <span class="separador">|</span>
+                <a href="#sobre">SOBRE</a>
+            </nav>
+        </div>
     </header>
-    </center>
-     
-     <main>
+    <section class="secao-hero">
+            <div class="hero-box">
+                <h1>CULTURA ANCESTRAL QUE VIVE</h1>
+                <p>Encontro de saberes, arte, música e resistência dos povos originários.</p>
+
+    <div class="hero-acoes">
+                    <div class="hero-ilustracao">
+                        <!-- Ilustração SVG minimalista de grafismo indígena e natureza -->
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                            <rect x="2" y="2" width="32" height="32" rx="6" fill="#1F4E3D"/>
+                            <path d="M9 18L18 9L27 18L18 27L9 18Z" stroke="#D99B26" stroke-width="2.2"/>
+                            <circle cx="18" cy="18" r="3" fill="#B84A27"/>
+                        </svg>
+                        <span>14 a 16 de Abril • Entrada Gratuita</span>
+                    </div>
+
+                    <a href="#atracoes" class="botao-terracota">Explorar atrações</a>
+                </div>
+            </div>
+        </section>
+        <section id="atracoes" class="secao-atracoes" aria-label="Atrações do Festival">
+            <div class="grade-cards">
+         <!-- Card 1 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Maracá / Música Sagrada -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <circle cx="19" cy="13" r="7" fill="#D99B26" fill-opacity="0.25" stroke="#B84A27" stroke-width="2"/>
+                            <path d="M14 18L8 26" stroke="#1F4E3D" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M15 11L23 15" stroke="#B84A27" stroke-width="1.8"/>
+                        </svg>
+                    </div>
+                    <h3>Cantos e Danças Sagradas</h3>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Vaso de Cerâmica / Artesanato -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <path d="M13 8H21L19 12C23 14 24 20 21 26H13C10 20 11 14 15 12L13 8Z" fill="#B84A27" fill-opacity="0.2" stroke="#B84A27" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M12 19H22" stroke="#1F4E3D" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Artesanato e Cerâmica</h3>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Cuia e Folha / Culinária -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <path d="M7 17H27C27 22.5 22.5 26 17 26C11.5 26 7 22.5 7 17Z" fill="#D99B26" fill-opacity="0.3" stroke="#1F4E3D" stroke-width="2"/>
+                            <path d="M17 14C17 10 21 8 24 8C24 11 22 14 17 14Z" fill="#1F4E3D"/>
+                        </svg>
+                    </div>
+                    <h3>Culinária Tradicional</h3>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Grafismo Geométrico -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <path d="M7 17L17 7L27 17L17 27L7 17Z" stroke="#1F4E3D" stroke-width="2.2"/>
+                            <path d="M12 17L17 12L22 17L17 22L12 17Z" fill="#B84A27"/>
+                        </svg>
+                    </div>
+                    <h3>Pintura Corporal e Grafismos</h3>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Fogueira / Contação de Histórias -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <path d="M17 7C17 7 23 12 23 17C23 20.3 20.3 23 17 23C13.7 23 11 20.3 11 17C11 14.5 12.5 12 14 10.5C14 12.5 15.5 13.5 15.5 13.5C15.5 10.5 17 7 17 7Z" fill="#D99B26" stroke="#B84A27" stroke-width="1.8" stroke-linejoin="round"/>
+                            <path d="M10 26L24 23M10 23L24 26" stroke="#1F4E3D" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Contação de Histórias</h3>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="card">
+                    <div class="card-icone">
+                        <!-- Ícone SVG: Tela / Cinema Indígena -->
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+                            <rect x="6" y="9" width="22" height="16" rx="3" fill="#1F4E3D" fill-opacity="0.15" stroke="#1F4E3D" stroke-width="2"/>
+                            <path d="M15 13.5L21 17L15 20.5V13.5Z" fill="#B84A27"/>
+                        </svg>
+                    </div>
+                    <h3>Cinema Indígena</h3>
+                </article>
+            <section class="secao-info">
+            <div class="grade-dupla">
+
+                <!-- Caixa Esquerda: Programação com 4 horários -->
+                <div id="programacao" class="caixa-info">
+                    <h2>PROGRAMAÇÃO</h2>
+                    <ul class="lista-horarios">
+                        <li><strong>09h00</strong> — Abertura e Ritual do Fogo</li>
+                        <li><strong>11h30</strong> — Oficina de Grafismo e Cerâmica</li>
+                        <li><strong>15h00</strong> — Roda de Saberes e Contação</li>
+                        <li><strong>18h30</strong> — Apresentação de Cantos e Danças</li>
+                    </ul>
+                </div>
+
+                <!-- Caixa Direita: Sobre o evento -->
+                <div id="sobre" class="caixa-info">
+                    <h2>SOBRE</h2>
+                    <p class="texto-sobre">
+                        O <strong>Festival Ybyrá</strong> celebra a memória viva, a arte e a diversidade dos povos originários do Brasil. Realizado de <strong>14 a 16 de abril</strong> no Parque das Águas, o encontro oferece vivências culturais, oficinas e apresentações abertas ao público com <strong>entrada totalmente gratuita</strong>.
+                    </p>
+                </div>
+                <footer class="rodape">
+        <div class="container">
+            <p>Festival Ybyrá 2026 &nbsp;|&nbsp; Contato: contato@festivalybyra.org.br &nbsp;|&nbsp; Créditos: Coletivo Cultural Ybyrá</p>
+        </div>
+    </footer>
+
+            </div>
+        </section>
+
+    </main>
+
+
+            </div>
+        </section>
+
+    
+
+        </center>
+        
+    parte 2
+    <nav>
         <center>
-          <h2> Cultura que transforma</h2>
+        <ul class="navegacao">
+            <a href="#inicio">Início</a>
+            <a href="#atracoes">Atrações</a>
+            <a href="Programacao">Programações</a>
+            <a href="sobre">Sobre</a>
+        </ul>
+        </center>
+    </nav>
+    </header>
+
+    <main>
+        <center>
         <section class="conteudo-inicial">
-       
-    
-    
-        <!-- <article class="conteudo-in">
-Os festivais de cultura indígena são eventos significativos que celebram a diversidade e a riqueza cultural dos povos indígenas do Brasil. Eles oferecem uma oportunidade única para que as comunidades indígenas compartilhem suas artes, lutas e visões de futuro, promovendo inclusão social, cultural e econômica. Esses festivais também têm como objetivo intercambiar saberes ancestrais e contemporâneos, quebrando estereótipos e valorizando saberes tradicionais. Além disso, eles visam criar um espaço autêntico de encontro entre indígenas e não indígenas, desconstruindo o racismo colonial e valorizando saberes tradicionais.
-            <img src="https://midiaindigena.com.br/wp-content/uploads/2025/09/Imagem-do-WhatsApp-de-2024-04-20-as-12.37.18_3ff10167-edited-1024x576.jpg" alt="Semana dos povos indígenas">
-            <figcaption>Semana dos Povos Indígenas</figcaption> -->
-        <div class="card">
-        <div class="moldura">
-            <img src="https://midiaindigena.com.br/wp-content/uploads/2025/09/Imagem-do-WhatsApp-de-2024-04-20-as-12.37.18_3ff10167-edited-1024x576.jpg" alt="Semana dos povos indígenas">
-  </div>
+            <article class="conteudo-art">
+                <p>A cultura indígena é o conjunto de valores, crenças, línguas, tradições e modos de vida dos povos originários, marcada por grande diversidade — no Brasil, são cerca de 305 etnias que falam 274 línguas, segundo o IBGE.</p>
+            </article>
+            <figure class="cartao-img">
+                <img src="https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2024/05/15/istock-filipefrazao-(11)-qhntbzg8w9x3.png"
+            </figure>
+        </section>
+        </center>
 
-  <div class="corpo">
-    <h3>Trilha nas montanhas</h3>
-    <p>Os festivais de cultura indígena são eventos significativos que celebram a diversidade e a riqueza cultural dos povos indígenas do Brasil. Eles oferecem uma oportunidade única para que as comunidades indígenas compartilhem suas artes, lutas e visões de futuro, promovendo inclusão social, cultural e econômica. Esses festivais também têm como objetivo intercambiar saberes ancestrais e contemporâneos, quebrando estereótipos e valorizando saberes tradicionais. Além disso, eles visam criar um espaço autêntico de encontro entre indígenas e não indígenas, desconstruindo o racismo colonial e valorizando saberes tradicionais.</p>
-  </div>
-</div>
+    <section class="galeria-conteudo">
+            <ul class="galeria-img">
+                <li>
+                    <figure class="gal-img">
+                        <img src="https://s2.glbimg.com/qbGul6PYWY1aBeZnRcCyGIJFjcU=/e.glbimg.com/og/ed/f/original/2020/12/15/marketplace-comercializa-produtos-de-artesaos-indigenas2.jpg">
+                        <figcaption>Adereços que carregam histórias</figcaption>
+                    </figure>
 
-    </article>
-    </section>
-    </center>
-  
+                </li>
+                <li>
+                    <figure class="gal-img">
+                        <img src="https://img.freepik.com/fotos-premium/tribus-unen-trajes-tradicionales-conmemorar-dia-pueblos-indigenas-gesto-manos-unidas-dia-pueblos-indigenas-9-agosto_1069077-7091.jpg?w=2000" alt="">
+                        <figcaption>UNIÃO</figcaption>
 
+            </section>
+    </main>
+    </body> 
+    <header id="inicio" class="topo">
+        <div class="container topo-conteudo">
+            <a href="#inicio" class="marca">FESTIVAL YBYRÁ</a>
 
-</body>
-</html>
+            <nav class="menu" aria-label="Menu principal">
+                <a href="#inicio">INÍCIO</a>
+                <span class="separador">|</span>
+                <a href="#atracoes">ATRAÇÕES</a>
+                <span class="separador">|</span>
+                <a href="#programacao">PROGRAMAÇÃO</a>
+                <span class="separador">|</span>
+                <a href="#sobre">SOBRE</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
